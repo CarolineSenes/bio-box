@@ -3,16 +3,9 @@
   //import du store
   import products from "../../stores/defaultProducts";
 
-  let localProducts = [];
-  onMount(() => {
-    products.subscribe((value) => {
-      console.log('subscribe');
-      localProducts = value;
-    });
-  });
 </script>
 
 <h1>Hello from Products Components</h1>
-{#each localProducts as product}
+{#each $products as product}
   <h2>{product.title}</h2>
 {/each}
