@@ -6,6 +6,7 @@
   let localProducts = [];
   onMount(() => {
     products.subscribe((value) => {
+      console.log('subscribe');
       localProducts = value;
     });
   });
@@ -13,6 +14,5 @@
 
 <h1>Hello from Products Components</h1>
 {#each localProducts as product}
-<h2>{product.title}</h2>
+  <h2>{product.title}</h2>
 {/each}
-
