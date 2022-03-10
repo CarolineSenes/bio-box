@@ -1,3 +1,16 @@
+<script>
+    export let product;
+    const {title, image, price, id} = product
+    import {link} from 'svelte-routing'
+</script>
 
-
-<h1>single product</h1>
+<article class="product">
+    <div class="img-container">
+        <img src="{image}" alt="{title}">
+        <a href={`/products/${id}`} use:link class="btn btn-primary product-link">Détails</a>
+    </div>
+    <div class="product-footer">
+        <p class="product-title">{title}</p>
+        <p class="product-price">{price}€</p>
+    </div>
+</article>
