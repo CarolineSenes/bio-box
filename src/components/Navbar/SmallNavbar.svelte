@@ -1,6 +1,6 @@
 <script>
-  import { link } from "svelte-routing";
-  import CartButton from "../Cart/CartButton.svelte"
+  import TitleNavbar from "../Navbar/TitleNavBar.svelte";
+  import CartButton from "../Cart/CartButton.svelte";
 </script>
 
 <nav class="navbar">
@@ -8,9 +8,7 @@
     <button class="btn-sidebar-toogle">
       <i class="fa fa-bars" />
     </button>
-    <a href="/" use:link class="nav-logo">
-      <span class="title">Bio-Box</span>
-    </a>
+    <TitleNavbar />
     <CartButton />
   </div>
 </nav>
