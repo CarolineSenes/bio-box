@@ -12,7 +12,7 @@
 </script>
 
 <Router>
-  <nav>
+  <nav class="navbar">
     <Link to="/">Accueil</Link>
     <Link to="/about">A Propos</Link>
     <Link to="/products">Produits</Link>
