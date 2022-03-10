@@ -12,10 +12,12 @@
 
   //COMPONENTS
   import Navbar from "./components/Navbar/Navbar.svelte"
+  import Sidebar from "./components/Navbar/Sidebar.svelte"
 </script>
 
 <Router>
   <Navbar />
+  <Sidebar />
 
   <div>
     <Route path="/"><Home /></Route>
