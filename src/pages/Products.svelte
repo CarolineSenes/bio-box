@@ -6,4 +6,4 @@
     /* your styles go here */
 </style>
 
-<Products />
+<Products title="Nos produits" />
