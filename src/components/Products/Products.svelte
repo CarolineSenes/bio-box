@@ -1,6 +1,5 @@
 <script>
   export let title = "";
-  import { onMount, onDestroy } from "svelte";
   //import du store
   import products from "../../stores/defaultProducts";
   import Product from "./Product.svelte";

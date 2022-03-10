@@ -5,7 +5,7 @@ export default [
     price: 1.99,
     description:
       "Lorem ipsum dolor amet leggings microdosing man bun, YOLO normcore four loko authentic poke. Man braid wolf cornhole YOLO, cronut succulents chambray fashion axe. Whatever truffaut lomo distillery meditation marfa, shaman quinoa selvage retro la croix bushwick banh mi kitsch. Glossier blog chillwave vinyl vice. Etsy sustainable bespoke art party kitsch hashtag mlkshk cold-pressed kinfolk selfies. Tumblr deep v shabby chic, authentic gochujang pour-over selvage tofu next level street art pitchfork viral knausgaard polaroid. Everyday carry authentic truffaut marfa retro.",
-    featured: true,
+    featured: false,
     created_at: "2019-10-27T21:38:58.014Z",
     updated_at: "2019-10-27T22:52:25.274Z",
     image: {
@@ -29,7 +29,7 @@ export default [
     price: 1.80,
     description:
       "Lorem ipsum dolor amet leggings microdosing man bun, YOLO normcore four loko authentic poke. Man braid wolf cornhole YOLO, cronut succulents chambray fashion axe. Whatever truffaut lomo distillery meditation marfa, shaman quinoa selvage retro la croix bushwick banh mi kitsch. Glossier blog chillwave vinyl vice. Etsy sustainable bespoke art party kitsch hashtag mlkshk cold-pressed kinfolk selfies. Tumblr deep v shabby chic, authentic gochujang pour-over selvage tofu next level street art pitchfork viral knausgaard polaroid. Everyday carry authentic truffaut marfa retro.",
-    featured: true,
+    featured: false,
     created_at: "2019-10-27T21:39:45.612Z",
     updated_at: "2019-10-27T22:52:06.354Z",
     image: {
@@ -53,7 +53,7 @@ export default [
     price: 0.89,
     description:
       "Lorem ipsum dolor amet leggings microdosing man bun, YOLO normcore four loko authentic poke. Man braid wolf cornhole YOLO, cronut succulents chambray fashion axe. Whatever truffaut lomo distillery meditation marfa, shaman quinoa selvage retro la croix bushwick banh mi kitsch. Glossier blog chillwave vinyl vice. Etsy sustainable bespoke art party kitsch hashtag mlkshk cold-pressed kinfolk selfies. Tumblr deep v shabby chic, authentic gochujang pour-over selvage tofu next level street art pitchfork viral knausgaard polaroid. Everyday carry authentic truffaut marfa retro.",
-    featured: null,
+    featured: true,
     created_at: "2019-10-28T00:57:44.490Z",
     updated_at: "2019-10-28T00:57:44.490Z",
     image: {
@@ -77,7 +77,7 @@ export default [
     price: 2.50,
     description:
       "Lorem ipsum dolor amet leggings microdosing man bun, YOLO normcore four loko authentic poke. Man braid wolf cornhole YOLO, cronut succulents chambray fashion axe. Whatever truffaut lomo distillery meditation marfa, shaman quinoa selvage retro la croix bushwick banh mi kitsch. Glossier blog chillwave vinyl vice. Etsy sustainable bespoke art party kitsch hashtag mlkshk cold-pressed kinfolk selfies. Tumblr deep v shabby chic, authentic gochujang pour-over selvage tofu next level street art pitchfork viral knausgaard polaroid. Everyday carry authentic truffaut marfa retro.",
-    featured: null,
+    featured: true,
     created_at: "2019-10-28T01:36:25.217Z",
     updated_at: "2019-10-28T01:36:25.217Z",
     image: {
@@ -149,7 +149,7 @@ export default [
     price: 1.19,
     description:
       "Lorem ipsum dolor amet squid tbh crucifix woke, vegan banjo succulents try-hard distillery waistcoat photo booth. Chillwave single-origin coffee art party snackwave palo santo before they sold out. Lyft brooklyn gluten-free, vape XOXO hella unicorn meggings banh mi heirloom air plant copper mug fixie lo-fi. Vaporware copper mug semiotics pok pok kogi poutine.",
-    featured: true,
+    featured: false,
     created_at: "2019-10-28T20:09:56.444Z",
     updated_at: "2019-10-28T20:09:56.444Z",
     image: {
@@ -173,7 +173,7 @@ export default [
     price: 2.30,
     description:
       "Lorem ipsum dolor amet squid tbh crucifix woke, vegan banjo succulents try-hard distillery waistcoat photo booth. Chillwave single-origin coffee art party snackwave palo santo before they sold out. Lyft brooklyn gluten-free, vape XOXO hella unicorn meggings banh mi heirloom air plant copper mug fixie lo-fi. Vaporware copper mug semiotics pok pok kogi poutine.",
-    featured: null,
+    featured: false,
     created_at: "2019-10-28T20:10:40.850Z",
     updated_at: "2019-10-28T20:10:40.850Z",
     image: {
@@ -221,7 +221,7 @@ export default [
     price: 0.65,
     description:
       "Lorem ipsum dolor amet squid tbh crucifix woke, vegan banjo succulents try-hard distillery waistcoat photo booth. Chillwave single-origin coffee art party snackwave palo santo before they sold out. Lyft brooklyn gluten-free, vape XOXO hella unicorn meggings banh mi heirloom air plant copper mug fixie lo-fi. Vaporware copper mug semiotics pok pok kogi poutine.",
-    featured: true,
+    featured: false,
     created_at: "2019-10-28T20:12:30.375Z",
     updated_at: "2019-10-28T20:26:12.927Z",
     image: {
@@ -245,7 +245,7 @@ export default [
     price: 0.40,
     description:
       "Lorem ipsum dolor amet squid tbh crucifix woke, vegan banjo succulents try-hard distillery waistcoat photo booth. Chillwave single-origin coffee art party snackwave palo santo before they sold out. Lyft brooklyn gluten-free, vape XOXO hella unicorn meggings banh mi heirloom air plant copper mug fixie lo-fi. Vaporware copper mug semiotics pok pok kogi poutine.",
-    featured: true,
+    featured: false,
     created_at: "2019-10-28T20:12:30.375Z",
     updated_at: "2019-10-28T20:26:12.927Z",
     image: {
