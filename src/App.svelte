@@ -18,11 +18,11 @@
     <Link to="/products">Produits</Link>
   </nav>
   <div>
-    <Route path="/" component={Home} />
-    <Route path="/about" component={About} />
-    <Route path="/login" component={Login} />
-    <Route path="/products" component={Products} />
-    <Route path="/products/:id" component={ProductTemplate} />
+    <Route path="/"><Home /></Route>
+    <Route path="/about"><About /></Route>
+    <Route path="/login"><Login /></Route>
+    <Route path="/products"><Products /></Route>
+    <Route path="/products/:id"><ProductTemplate /></Route>
   </div>
 </Router>
 

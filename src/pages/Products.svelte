@@ -1,9 +1,9 @@
 <script>
-    // your script goes here
+    import Products from '../components/Products/Products.svelte'
 </script>
 
 <style>
     /* your styles go here */
 </style>
 
-<h1>hello products page</h1>
+<Products />
