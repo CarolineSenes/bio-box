@@ -22,7 +22,7 @@
     <Route path="/about"><About /></Route>
     <Route path="/login"><Login /></Route>
     <Route path="/products"><Products /></Route>
-    <Route path="/products/:id"><ProductTemplate /></Route>
+    <Route path="/products/:id" let:params><ProductTemplate id="{params.id}" /></Route>
   </div>
 </Router>
 
