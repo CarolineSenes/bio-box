@@ -55,7 +55,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.navbar .title{
   font-family: var(--slantedFont);
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
@@ -242,7 +243,7 @@ Hero
   width: var(--smallWidth);
   max-width: var(--maxWidth);
 }
-.hero h1 {
+.hero h1{
   font-size: 3rem;
   text-transform: capitalize;
 }
