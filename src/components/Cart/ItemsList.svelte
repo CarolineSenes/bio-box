@@ -8,7 +8,10 @@
 <section class="cart-items">
   <article>
     {#each $cartStore as cartItem, index (cartItem.id)}
+    <div in:fly={{delay: (index+1)*300, x: 100}} out:fly={{x:-100}} animate:flip>
       <Item {cartItem} />
+
+    </div>
     {:else}
       <h2 class="empty-cart">est vide ...</h2>
     {/each}
