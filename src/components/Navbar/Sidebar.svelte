@@ -2,12 +2,16 @@
   import links from "../../constants/links";
   import { link } from "svelte-routing";
   import TitleNavBar from "./TitleNavBar.svelte";
+  import globalStore from "../../stores/globalStore";
 </script>
 
 <div class="sidebar-container">
   <div class="sidebar">
     <header class="sidebar-header">
-      <button class="btn-clos">
+      <button
+        class="btn-clos"
+        on:click={() => globalStore.toggleItem("sidebar", false)}
+      >
         <i class="fas fa-window-close" />
       </button>
     </header>
@@ -19,7 +23,7 @@
         href={sideLink.url}
         use:link
         on:click={() => {
-          console.log("sidebar close");
+          globalStore.toggleItem("sidebar", false)
         }}>{sideLink.text}</a
       >
     {/each}
