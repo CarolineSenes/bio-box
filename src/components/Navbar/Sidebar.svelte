@@ -8,14 +8,14 @@
 
 <div class="sidebar-container" transition:fly={{x:-1000}}>
   <div class="sidebar">
-    <header class="sidebar-header">
+    <div class="sidebar-header">
       <button
-        class="btn-clos"
+        class="btn-close"
         on:click={() => globalStore.toggleItem("sidebar", false)}
       >
         <i class="fas fa-window-close" />
       </button>
-    </header>
+    </div>
   </div>
   <TitleNavBar class="sidebar-logo" />
   <ul class="sidebar-links">

@@ -7,7 +7,7 @@
 <nav class="navbar">
   <div class="nav-center">
     <button
-      class="btn-sidebar-toogle"
+      class="btn-sidebar-toggle"
       on:click={() => globalStore.toggleItem("sidebar", true)}
     >
       <i class="fa fa-bars" />
