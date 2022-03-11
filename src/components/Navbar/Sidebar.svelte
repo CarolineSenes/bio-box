@@ -3,9 +3,10 @@
   import { link } from "svelte-routing";
   import TitleNavBar from "./TitleNavBar.svelte";
   import globalStore from "../../stores/globalStore";
+  import { fly, fade } from "svelte/transition";
 </script>
 
-<div class="sidebar-container">
+<div class="sidebar-container" transition:fly={{x:-1000}}>
   <div class="sidebar">
     <header class="sidebar-header">
       <button
@@ -23,7 +24,7 @@
         href={sideLink.url}
         use:link
         on:click={() => {
-          globalStore.toggleItem("sidebar", false)
+          globalStore.toggleItem("sidebar", false);
         }}>{sideLink.text}</a
       >
     {/each}
