@@ -8,8 +8,8 @@
 <section class="cart-items">
   <article>
     {#each $cartStore as cartItem, index (cartItem.id)}
-      <Item {...cartItem}/>
-      {:else}
+      <Item {cartItem} />
+    {:else}
       <h2 class="empty-cart">est vide ...</h2>
     {/each}
   </article>
