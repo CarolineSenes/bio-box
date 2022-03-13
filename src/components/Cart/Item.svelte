@@ -1,6 +1,11 @@
 <script>
   export let cartItem;
   const { id, image, title, price, amount } = cartItem;
+  import {
+    removeItem,
+    increaseAmount,
+    decreaseAmount,
+  } from "../../stores/cartStore";
 </script>
 
 <div class="cart-item">
@@ -11,7 +16,7 @@
     <button
       class="cart-btn remove-btn"
       on:click={() => {
-        console.log("suppr item");
+        removeItem(id);
       }}>Supprimer</button
     >
   </div>
@@ -19,16 +24,16 @@
     <button
       class="cart-btn amount-btn"
       on:click={() => {
-        console.log("qté +");
+        increaseAmount(id);
       }}
     >
       <i class="fas fa-chevron-up" />
     </button>
-    <p class="item-amount">{amount}</p>
+    <p class="item-amount">{cartItem.amount}</p>
     <button
       class="cart-btn amount-btn"
       on:click={() => {
-        console.log("qté -");
+        decreaseAmount(id);
       }}
     >
       <i class="fas fa-chevron-down" />
