@@ -1,12 +1,13 @@
 <script>
   export let id;
 
+  import { addToCart } from "../stores/cartStore";
   import products from "../stores/defaultProducts";
   import Loading from "../components/Loading.svelte";
   import { link } from "svelte-routing";
 
-  import globalStore from '../stores/globalStore'
-  
+  import globalStore from "../stores/globalStore";
+
   //parse analyse une chaîne de caractère fournie en argument et renvoie un entier
   //nous sert à comparer 2 number
   $: product = $products.find((item) => item.id === parseInt(id));
@@ -32,7 +33,8 @@
         <button
           class="btn btn-primary btn-block"
           on:click={() => {
-            globalStore.toggleItem("cart", true)
+            addToCart(product);
+            globalStore.toggleItem("cart", true);
           }}>Ajouter au panier</button
         >
       </article>
