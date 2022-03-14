@@ -1,6 +1,6 @@
 //permet de répertorier les url de la navbar au même endroit
 export default[
-    {text:'home',url:'/'},
-    {text:'products',url:'/products'},
-    {text:'about',url:'/about'},
+    {text:'Accueil',url:'/'},
+    {text:'Produits',url:'/products'},
+    {text:'A Propos',url:'/about'},
 ]
