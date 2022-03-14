@@ -3,6 +3,7 @@
   import TitleNavbar from "../Navbar/TitleNavBar.svelte";
   import links from "../../constants/links";
   import { link } from "svelte-routing";
+  import LoginLink from '../LoginLink.svelte'
 </script>
 
 <nav class="navbar">
@@ -17,6 +18,7 @@
       </ul>
       <TitleNavbar />
       <div class="nav-aside">
+        <LoginLink />
         <CartButton />
       </div>
     </div>

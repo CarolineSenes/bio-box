@@ -4,9 +4,10 @@
   import TitleNavBar from "./TitleNavBar.svelte";
   import globalStore from "../../stores/globalStore";
   import { fly, fade } from "svelte/transition";
+  import LoginLink from "../LoginLink.svelte";
 </script>
 
-<div class="sidebar-container" transition:fly={{x:-1000}}>
+<div class="sidebar-container" transition:fly={{ x: -1000 }}>
   <div class="sidebar">
     <div class="sidebar-header">
       <button
@@ -28,5 +29,8 @@
         }}>{sideLink.text}</a
       >
     {/each}
+    <li>
+      <LoginLink />
+    </li>
   </ul>
 </div>
